@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Lora';
+    src: url(./Lora/Lora-Medium.ttf) format(".ttf");
+}
+
+@font-face {
+    font-family: 'Lora';
+    src: url(./Lora/Lora-Bold.ttf) format(".ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./Montserrat.WOFF2/MiConv.com__Montserrat-Italic.woff2) format(".woff2");
+}
+
+.main {
+    margin: 20px 100px 20px 100px;
+}
+.header {
+    position: sticky;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 2em;
+    padding-right: 2em;
+    top: 0;
+    width: auto;
+    height: 60px;
+    background-color: #d74b6e;
+    font-size: 25px;
+    z-index: 5;
+}
+
+.header__link {
+    font-family: 'Lora';
+    font-size: 26px;
+    font-weight: 400;
+    color: #fce3f4;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.main__foto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin: -20px -100px 0px -100px;
+    height: max-content;
+    background-color: #cccaca;
+}
+.main__foto-first {
+    max-height: 350px;
+    width: auto;
+    
+}
+.main__title {
+    font-family: 'Lora';
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    text-align: center;
+    color: #333333;
+}
+.main__subtitle {
+border-left: 10px solid pink;
+padding-left: 10px;
+font-family: 'Lora';
+font-size: 28px;
+font-weight: 400;
+color: #333333;
+height: max-content;
+}
+
+.main__text {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    text-align: center;
+    margin: 0;
+}
+
+.main__box_foto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+    align-content: center;
+}
+
+.main__box-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    max-width: 50%;
+    justify-content: center;
+}
+
+.main__foto-education {
+    border-radius: 16px;
+    max-height: 450px;
+}
+
+.main__box-construction {
+    display: flex;
+    flex-direction: row;
+}
+
+.main__list {
+    list-style: none;
+}
+
+.main__item {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.main__box-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    align-items: start;
+    row-gap: 25px;
+}
+
+#link {
+color: #333333;
+font-size: 16px;
+font-weight: 400;
+font-family: 'Montserrat'
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid rgb(87.8%, 87.8%, 87.8%);
+    min-height: 50px;
+}
